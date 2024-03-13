@@ -3,12 +3,12 @@ import React from 'react'
 import styles from './styles'
 
 
-const Title = () => {
+const Title = ({ title }) => {
   return (
     <View style={styles.container} >
-      <Text>Title</Text>
+      <Text style={styles.title}>{title}</Text>
     </View>
   )
 }
 
-export default Title
+export default Title;
